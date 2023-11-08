@@ -12,9 +12,8 @@ Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n 
 3. Activate the [401K Calculator](https://www.calculator.io/401k-calculator/ "401K Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_401k_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the 401K Calculator to the sidebar through the `Appearance -> Widgets -> 401K Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_401k_calculator(); ?>` to your template where you would like the 401K Calculator to appear.
+* Add the shortcode `[ci_401k_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_401k_calculator(); ?>` to your template where you would like the 401K Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
