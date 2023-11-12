@@ -13,34 +13,35 @@ Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n 
 
 Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  
 
-[401K Calculator Homepage](https://www.calculator.io/401k-calculator/ "401K Calculator Homepage")
+[https://www.calculator.io/401k-calculator/](https://www.calculator.io/401k-calculator/)
 
-__Shortcode__
-
-Use the 401K Calculator shortcode:
+__401K Calculator Shortcode__
 
 `[ci_401k_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_401k_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [401K Calculator](https://www.calculator.io/401k-calculator/ "401K Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== 401K Calculator Usage ==
+
 * Add the shortcode `[ci_401k_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_401k_calculator(); ?>` to your template where you would like the 401K Calculator to appear.
 
 == Screenshots ==
+
 1. The 401K Calculator Input Form.
 2. The 401K Calculator Calculation Results.
+
+== Libraries used in 401K Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
