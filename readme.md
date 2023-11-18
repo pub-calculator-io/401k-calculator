@@ -1,4 +1,4 @@
-# 401K Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# 401K Calculator Widget for WordPress
 
 Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  
 
