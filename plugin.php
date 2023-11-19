@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: 401K Calculator by www.calculator.io
+Plugin Name: CI 401k calculator
 Plugin URI: https://www.calculator.io/401k-calculator/
 Description: Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  
 Version: 1.0.0
