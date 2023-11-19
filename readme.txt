@@ -1,4 +1,4 @@
-=== 401K Calculator ===
+=== 401K Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: 401k calculator, 401k, retirement calculator, principal 401k, retirement savings calculator
 Requires at least: 5.0
