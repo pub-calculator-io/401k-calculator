@@ -7,7 +7,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  
+Free 401k retirement calculator that uses the 401k Growth Formula can help users plan for retirement and calculate 401k growth.  
 
 [https://www.calculator.io/401k-calculator/](https://www.calculator.io/401k-calculator/)
 
@@ -24,7 +24,6 @@ Add the following code to your template where you would like the 401K Calculator
 == Screenshots ==
 
 1. The 401K Calculator Input Form.
-2. The 401K Calculator Calculation Results.
 
 == Installation ==
 

@@ -1,9 +1,8 @@
 # 401K Calculator Widget for WordPress
 
-Free 401k retirement calculator that uses the formula FV = (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  
+Free 401k retirement calculator that uses the 401k Growth Formula can help users plan for retirement and calculate 401k growth.  
 
 ![401K Calculator Input Form](/assets/images/screenshot-1.png "401K Calculator Input Form")
-![401K Calculator Calculation Results](/assets/images/screenshot-2.png "401K Calculator Calculation Results")
 
 ## Installation
 

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Free 401k retirement calculator that uses the formula FV &#x3D; (PV + TC) + (1 + R)n can help users plan for retirement and calculate 401k growth.  ">
+    <meta name="description" content="Free 401k retirement calculator that uses the 401k Growth Formula can help users plan for retirement and calculate 401k growth.  ">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -134,14 +134,17 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -156,13 +159,12 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Result</p>
 	<div class="table-cell table-cell--age table-cell--only row">
 		<div class="col chart__text">
-			<p class="result-text" id="result">At the retirement age of 65, the 401(k) balance will be <b>$1,537,963</b>, which is equivalent to <b>$546,566</b> in purchasing power today.</p>
+			<p class="result-text animate" id="result">At the retirement age of 65, the 401(k) balance will be <b>$1,537,963</b>, which is equivalent to <b>$546,566</b> in purchasing power today.</p>
 		</div>
 		<div class="chart-wrapper chart-wrapper--donut chart-wrapper--donut-row">
 			<canvas id="chartDonutBig" class="chart chart--donut" width="220px" height="220px"></canvas>
@@ -183,7 +185,7 @@
 		</div>
 	</div>
 	<div class="result-table__wrapper">
-		<table class="result-table">
+		<table class="result-table animate">
 			<thead>
 				<tr>
 					<th>Total contributions</th>
